@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dream Wedding Planners</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff7fb;
+    color: #4b3e43;
+}
+header {
+    background: url('https://cdn.pixabay.com/photo/2016/11/22/19/15/wedding-1854074_1280.jpg') center/cover;
+    padding: 120px 0;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    font-size: 60px;
+    margin: 0;
+    text-shadow: 2px 2px 8px #000;
+}
+header p {
+    font-size: 22px;
+    margin-top: 15px;
+}
+nav {
+    background: #e6c4d6;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+nav a {
+    color: #4b3e43;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.section {
+    width: 85%;
+    margin: auto;
+    padding: 60px 0;
+}
+.section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.portfolio-grid img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.testimonial {
+    background: #f7e8ef;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.testimonial strong {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
+form {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    width: 60%;
+    margin: auto;
+}
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0;
+    border: 1px solid #c8b2bd;
+    border-radius: 8px;
+}
+button {
+    background: #c9678a;
+    color: white;
+    border: none;
+    padding: 13px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background: #b85b7c;
+}
+footer {
+    background: #e6c4d6;
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+}
+html {
+    scroll-behavior: smooth;
+}
+</style>
+</head>
+<body>
+
+<header id="home">
+    <h1>Dream Wedding Planners</h1>
+    <p>Where your fairy tale wedding becomes reality ✨</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#inquiry">Inquiry Form</a>
+</nav>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p style="font-size:20px; line-height:32px;">
+        We are a premium destination wedding planning company with 10+ years of experience.
+        From intimate gatherings to luxurious celebrations, we ensure every detail is elegant,
+        seamless and unforgettable. Whether it’s a beach wedding, royal venue or vintage theme,
+        we turn your dream into a magical memory.
+    </p>
+</section>
+
+<section id="portfolio" class="section">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio-grid">
+        <img src="https://cdn.pixabay.com/photo/2019/07/30/20/28/aisle-4376942_1280.jpg">
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/03/00/ballroom-1869652_1280.jpg">
+        <img src="https://cdn.pixabay.com/photo/2019/07/13/18/40/wedding-4330985_960_720.jpg">
+        <img src="https://cdn.pixabay.com/photo/2017/03/27/14/18/wedding-2178703_1280.jpg">
+        <img src="https://cdn.pixabay.com/photo/2017/05/31/13/16/bride-2369414_1280.jpg">
+        <img src="https://cdn.pixabay.com/photo/2020/01/08/17/10/wedding-4757056_1280.jpg">
+    </div>
+</section>
+
+<section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+
+    <div class="testimonial">
+        “Everything was perfect! They turned our dream into a fairytale wedding. Highly recommended!”
+        <strong>— Priya & Arjun</strong>
+    </div>
+    <div class="testimonial">
+        “From decoration to guest management, everything was handled flawlessly. Thank you!”
+        <strong>— Shah Family</strong>
+    </div>
+    <div class="testimonial">
+        “The best planners! Stress-free planning, beautiful arrangements and amazing hospitality.”
+        <strong>— Kavya & Rohan</strong>
+    </div>
+</section>
+
+<section id="inquiry" class="section">
+    <h2>Inquiry Form</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Phone Number" required>
+        <textarea rows="5" placeholder="Describe your wedding plan"></textarea>
+        <button type="submit">Send Inquiry</button>
+    </form>
+</section>
+
+<footer>
+    © 2025 Dream Wedding Planners | Designed with Love 💕
+</footer>
+
+</body>
+</html>
